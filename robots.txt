@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://vasileiospaliktzoglou.github.io/sitemap.xml
+Add robots.txt for SEO
