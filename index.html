@@ -24,30 +24,20 @@
 
   <style>
     body {
-      background: #f0f8ff;
+      margin: 0;
+      background: #f4f4f4;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
     }
-
-    .spinner {
-      width: 70px;
-      height: 70px;
-      border: 8px solid #d3d3d3;
-      border-top: 8px solid #007BFF;
-      border-radius: 50%;
-      animation: spin 1.2s linear infinite;
-      filter: drop-shadow(0 0 6px #007BFF);
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
+    img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
 </head>
 <body>
-  <div class="spinner" aria-label="Loading animation"></div>
+  <img src="https://media.tenor.com/Vgsyhzd1AwMAAAAC/laptop-cat.gif" alt="Redirecting Animation" />
 </body>
 </html>
